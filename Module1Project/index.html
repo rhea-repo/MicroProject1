@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Module1Project by Rhea M.</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <div class="background">
+            <div>
+                <div class="title">
+                    <div>
+                    <h1>ROCK</h1>
+                    <h1>PAPER</h1>
+                    <h1>SCISSORS</h1>
+                </div>
+                <div  class="content">
+                    <div class="scorebox">
+                        <p class="scoretext">COMPUTER</p>
+                        <p class="scoretext">SCORE</p>
+                        <p id="computerScore">0</p>
+                    </div>
+                    <div class="scorebox">
+                        <p class="scoretext">YOUR</p>
+                        <p class="scoretext">SCORE</p>
+                        <p id="playerScore">0</p>
+                    </div>
+                </div>
+                </div>
+
+<div id="resultText" style="display: none;"></div>
+<button id="playAgain" style="display: none;">Play Again</button>
+
+                <div style="margin-left: 250px; margin-top: 50px;">
+                    <div class="flexrow">
+                    <div id="rockcircle">
+                        <img src="rockcircle.png">
+                        <img class="rock" src="rock.png" >
+                    </div>
+
+                    <div id="scissorscircle">
+                        <img src="scissorscircle.png">
+                        <img class="scissors"src="scissors.png" >
+                    </div>
+                </div>
+                    <div id="papercircle">
+                        <img src="papercircle.png">
+                        <img class="paper" src="paper.png" >
+                    </div>
+
+                </div>
+
+  <div id="hiddenBox">
+ 
+    <div>
+        <div class="flexrow">
+    <p class="gamerules">Game Rules</p>
+    <div class="xcircle" id="closeButton">
+        <p class="gamerules">X</p>
+    </div>
+    </div>
+    <div class="flexrow">
+        <div class="yellowbox"></div>
+        <p class="ruletexts">Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+    </div>
+    <div class="flexrow">
+        <div class="yellowbox"></div>
+        <p class="ruletexts">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</p>
+    </div>
+    <div class="flexrow">
+        <div class="yellowbox"></div>
+        <p class="ruletexts">Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p>
+    </div>
+    <div class="flexrow">
+        <div class="yellowbox"></div>
+        <p class="ruletexts">If both players lay down the same hand, each player lays down another hand</p>
+    </div>
+
+
+</div>
+
+  </div>
+                <div style="flex-direction: row; display: flex; margin-left: 700px;">
+                    <button id="openButton">RULES</button>
+                    <button id="nextbutton">NEXT</button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="logic.js"></script>
+    </body>
+</html>

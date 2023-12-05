@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+}
+.background {
+    background-color: #89C15E;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 15px;
+    justify-content: space-between; 
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.scorebox {
+    background-color: white;
+    margin:5px;
+    border-radius: 5px;
+}
+.scoretext {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #656565;
+    width:140px;
+    margin: 5px;
+}
+#playerScore {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0px;
+}
+#computerScore {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0px;
+}
+#hiddenBox {
+    display: none;
+    width: 280px;
+    height: 350px;
+    background-color: #004429;
+    border: 5px solid white;
+    padding: 0px;
+    border-radius: 5px;
+  }
+  .xcircle{
+    background-color: red;
+    width:50px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 40px;
+  }
+  #openButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #89C15E;
+   border-width: 2px;
+   border-color: white;
+    cursor: pointer;
+    margin: 5px;
+  }
+  #nextbutton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #89C15E;
+   border-width: 2px;
+   border-color: white;
+    cursor: pointer;
+    display: none;
+    margin: 5px;
+  }
+  .yellowbox {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    margin: 10px;
+  }
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.gamerules{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin:8px;
+}
+.ruletexts{
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.rock{
+    position: absolute;
+  right:40px;
+  top: 50px;
+}
+#rockcircle{
+    position: relative;
+}
+
+.paper{
+    position: absolute;
+ left: 50px;
+ top: 40px;
+}
+#papercircle{
+    position: relative;
+    margin-left: 85px;
+}
+.scissors{
+    position: absolute;
+  right:60px;
+  top: 50px;
+}
+#scissorscircle{
+    position: relative;
+}
+.stars{
+    position: relative;
+}
+.trophy{
+    position: absolute;
+    left: 700px;
+    top:230px;
+}
+#playAgain {
+    color: #6B6B6B;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#goback {
+    color: #6B6B6B;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#resultText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
