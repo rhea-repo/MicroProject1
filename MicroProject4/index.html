@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroProject4 by Rhea Molugu</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="logic.js">
+
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div  class="display">
+            <h4 class="heading">Calculator by Rhea M.</h4>
+           <div class="textinput">
+            <p class="text1">0</p>
+
+           </div>      
+        </div>
+        <div class="keypad">
+            <div class="grid">
+            <button onclick= getInput(7) class="keypadinputs">7</button>
+            <button onclick= getInput(8) class="keypadinputs">8</button>
+            <button onclick= getInput(9) class="keypadinputs">9</button>
+            <button onclick="getInput('DEL')" id="myButton" class="delete">DEL</button>
+            <button onclick= getInput(4) class="keypadinputs">4</button>
+            <button onclick= getInput(5) class="keypadinputs">5</button>
+            <button onclick= getInput(6) class="keypadinputs">6</button>
+            <button onclick="getInput('+')" class="keypadinputs">+</button>
+            <button onclick= getInput(1) class="keypadinputs">1</button>
+            <button onclick= getInput(2) class="keypadinputs">2</button>
+            <button onclick= getInput(3) class="keypadinputs">3</button>
+            <button onclick= "getInput('-')" class="keypadinputs">-</button>
+            <button onclick= "getInput('.')" class="keypadinputs">.</button>
+            <button onclick= getInput(0) class="keypadinputs">0</button>
+            <button onclick= "getInput('/')" class="keypadinputs">/</button>
+            <button onclick= "getInput('*')" class="keypadinputs">x</button>  
+        </div>
+            <div class="buttons2">
+                <button onclick= "getInput('RESET')" class="reset">RESET</button>
+                <button onclick= "getInput('=')" class="equals">=</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

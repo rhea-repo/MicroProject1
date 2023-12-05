@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #3B4664; 
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+.display {
+    padding-bottom: 20px;
+}
+.input-container {
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+}
+.heading {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 700;
+}
+.textinput {
+    padding:5px;
+    border-radius: 5px;
+    width:500px;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+.text1{
+    font-size: 35px;
+    color: white;
+    padding-left: 10px;
+}
+.keypad{
+    background-color: rgba(0, 0, 0, 0.20);
+    padding: 30px;
+}
+.keypadinputs{
+background-color: #EAE3DB;
+color:#3B4664;
+font-size: 30px;
+padding:10px 30px;
+font-weight: 700;
+border-radius: 10px;
+}
+.delete{
+    background-color: #647299;
+    color:white;
+    font-size: 30px;
+    padding:10px 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    }
+    .reset{
+        background-color: #647299;
+        color:white;
+        font-size: 30px;
+        padding:10px 55px;
+        font-weight: 700;
+        border-radius: 10px;
+        }
+        .equals{
+            background-color: red;
+            color:white;
+            font-size: 30px;
+            padding:10px;
+            font-weight: 700;
+            border-radius: 10px;
+            width: 50%;
+            }
+.buttons2{
+padding-top: 10px;
+padding-left: 5px;
+}
